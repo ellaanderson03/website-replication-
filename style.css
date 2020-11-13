@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+}
+body{ 
+  margin: 0;
+  background-color: #00b386;
+}
+header h2{
+  font-size: 3rem;
+  color: lightgreen;
+  text-align: center;
+  margin:3rem 0 0 0;
+  font-family: 'Poppins', sans-serif;
+}
+header p{ 
+  font-size: 2rem;
+  color: lightgreen;
+  text-transform: uppercase;
+  text-align: center;
+  margin:0 0 3rem 0 ;
+}
+
+.first-container{
+  width: max(400px, 60%);
+  margin: 0 auto;
+  
+}
+
+.links-container{
+  padding:0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links-container li{
+  list-style:none;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.links-container a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: max(15px, 2vw);
+  
+}
+.links-container a:hover{
+color:pink;
+}
+.image-container{
+  height:900px;
+  width:max(400px, 60%);
+  margin: 0 auto;
+  background: url("/images/yoga.jpeg");
+  background-position:center; 
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.image-container h1{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 5rem;
+  color:white;
+  padding:0;
+  margin:0;
+  font-family: 'Trispace', sans-serif;
+}
+.image-container p{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 3rem;
+  color:white;
+  padding:0;
+  margin:0;
+  font-family: 'Trispace', sans-serif;
+
+}
+
+hr.solid {
+  border-top: 7px solid lightpink;
+}
+.social-container{
+  display: flex;
+  justify-content:space-between;
+  
+}
+.bottom-container{
+  display:flex;
+  justify-content:space-between;
+  width: max(400px,60%);
+  margin: 0 auto;
+}
+.bottom-container ul{
+  list-style: none;
+}
+.social-container a{
+  color: lightgreen;
+  font-size: 2rem;
+
+}
+.bottom-left h2{
+  font-family: 'Poppins', sans-serif;
+  font-size:1rem;
+  padding:0;
+  margin:0;
+  color: white;
+}
+.bottom-left p{
+  padding:0;
+  margin:0;
+  font-size: 1rem;
+  color: white;
+}
+.image-container hr{
+  width: 10rem;
+  padding:0;
+  margin:0;
+}
